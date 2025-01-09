@@ -6,8 +6,8 @@ def perform_operation(num1, num2, operation):
     elif operation=='multiply':
         result = num1 * num2
     elif operation=='divide':
-        result = num1 / num2 if num2 != 0 else 0
+        result = 0 if num2 == 0 else num1 / num2
     return result
 
-perform_operation(40, 0, "divide")
+perform_operation(0, 6, "divide")
     
