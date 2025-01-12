@@ -18,7 +18,7 @@ def main():
             shopping_list.remove(input('Enter the item to be remove: ')) # Prompt for and remove an item
             pass
         elif choice == '3':
-            print(shopping_list)# Display the shopping list
+            print(shopping_list) # Display the shopping list
             pass
         elif choice == '4':
             print("Goodbye!")
