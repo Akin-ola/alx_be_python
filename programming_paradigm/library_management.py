@@ -11,7 +11,7 @@ class Book:
         pass
 
 class Library():
-    def init(self):
+    def __init__(self):
         self._books = []
         self.checked_book = None
 
