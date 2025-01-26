@@ -18,12 +18,12 @@ class Rectangle(Shape):
         return result
     
 class Circle(Shape):
-    def __init__(self, radius):
+    def __init__(self, radius=float):
         super().__init__()
         self.radius = radius
 
     def area(self):
-        result = math.pi * float(self.radius ** 2)
+        result = math.pi * (self.radius ** 2)
         return result
 
 def main():
